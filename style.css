@@ -1,0 +1,254 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fb;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+  background-color: #283593;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  color: white; /* обязательно, чтобы переопределить глобальный h1 */
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #2c3e50; /* цвет для h1 вне header */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+  
+  .lang-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: #283593;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #283593;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-btn {
+    display: block;
+    width: 100%;
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .menu-btn:hover {
+    background-color: #5c6bc0;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .btn {
+    background-color: #283593;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #3949ab;
+  }
+  
+  #section3 img {
+  max-width: 90%;
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+
+#keyImageContainer img {
+  width: 120%;
+  max-width: 600px;
+  position: relative;
+  left: -20px;
+  top: 30px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      animation: fadeIn 0.6s ease;
+    }
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-weight: 600;
+      display: block;
+      margin-top: 15px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #2f47b5;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #1f3390;
+    }
+
+    .step {
+      background: #eef3ff;
+      border-left: 6px solid #2f47b5;
+      padding: 20px;
+      margin-top: 25px;
+      border-radius: 10px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: slideIn 0.6s ease forwards;
+    }
+
+    .step h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      color: #2f47b5;
+    }
+
+    .byte-block {
+      display: inline-block;
+      background: #d6e4ff;
+      color: #1c2b70;
+      padding: 4px 8px;
+      margin: 2px;
+      border-radius: 6px;
+      font-family: monospace;
+      transition: background 0.3s;
+    }
+
+    .result-byte {
+      background: #b3ffd1;
+      color: #1a4f30;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #dbe8ff;
+    }
+
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.97);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
